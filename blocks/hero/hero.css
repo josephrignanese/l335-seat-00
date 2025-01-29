@@ -9,11 +9,20 @@
   min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
+.hero > div > div {
+  margin-right: 33%;
+}
+
+.hero h1, .hero p {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: var(--text-color);
+}
+
+.hero p a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 .hero picture {
