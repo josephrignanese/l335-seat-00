@@ -2,7 +2,8 @@
   "mappings": [
     "/content/summit-test/:/",
     "/content/summit-test/configuration:/.helix/config.json",
-    "/content/summit-test/metadata:/metadata.json"
+    "/content/summit-test/metadata:/metadata.json",
+    "/content/summit-test/redirects:/redirects.json"
   ],
   "includes": [
     "/content/summit-test/"
