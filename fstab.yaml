@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/mhaack/summit-test/main"
+    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-summit2025-l335/l335-base/main"
     type: "markup"
     suffix: ".html"
