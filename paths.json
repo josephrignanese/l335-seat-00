@@ -1,11 +1,11 @@
 {
   "mappings": [
-    "/content/summit-test/:/",
-    "/content/summit-test/configuration:/.helix/config.json",
-    "/content/summit-test/metadata:/metadata.json",
-    "/content/summit-test/redirects:/redirects.json"
+    "/content/las-vegas-events/:/",
+    "/content/las-vegas-events/configuration:/.helix/config.json",
+    "/content/las-vegas-events/metadata:/metadata.json",
+    "/content/las-vegas-events/redirects:/redirects.json"
   ],
   "includes": [
-    "/content/summit-test/"
+    "/content/las-vegas-events/"
   ]
 }
