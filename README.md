@@ -1,9 +1,8 @@
-# Your Project's Title...
-Your project's description...
+# Adobe Summit L335 - Las Vegas Events
 
 ## Environments
-- Preview: https://main--summit-test--mhaack.aem.page/
-- Live: https://main--summit-test--mhaack.aem.live/
+- Preview: https://main--l335-base--adobe-summit2025-l335.aem.page/
+- Live: https://main--l335-base--adobe-summit2025-l335.aem.live/
 
 ## Documentation
 
