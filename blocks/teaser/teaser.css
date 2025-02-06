@@ -25,7 +25,6 @@
 
 @media (width <=900px) {
     .teaser {
-        flex-direction: column-reverse;
-        max-height: 568px;
+        flex-direction: column;
     }
 }
