@@ -1,5 +1,5 @@
-import ffetch from "../../scripts/ffetch.js";
-
+import ffetch from '../../scripts/ffetch.js';
+import { createOptimizedPicture } from '../../scripts/aem.js';
 /**
  * Fetches events data from the events index
  * @returns {Promise<Array>} The events data
@@ -21,36 +21,31 @@ async function fetchEvents() {
  * @returns {HTMLElement} The event list item
  */
 function createEventElement(event) {
-  const li = document.createElement("li");
-  li.classList.add("event");
+  const li = document.createElement('li');
 
-  // Create title with optional link
-  const title = document.createElement("h3");
-  if (event.path) {
-    const link = document.createElement("a");
-    link.href = event.path;
-    link.textContent = event.title;
-    title.append(link);
-  } else {
-    title.textContent = event.title;
-  }
-  li.append(title);
+  // add the event image
+  const imgWrapper = document.createElement('div');
+  imgWrapper.classList.add('event-image');
+  const img = createOptimizedPicture(event.image, event.title);
+  imgWrapper.append(img);
+  li.append(imgWrapper);
 
-  // Add date if available
-  if (event.date) {
-    const date = document.createElement("p");
-    date.classList.add("event-date");
-    date.textContent = new Date(event.date).toLocaleDateString();
-    li.append(date);
-  }
+  // add the event title and description
+  const contentWrapper = document.createElement('div');
+  contentWrapper.classList.add('event-content');
+  const title = document.createElement('h3');
 
-  // Add description if available
+  const link = document.createElement('a');
+  link.href = event.path;
+  link.textContent = event.title;
+  title.append(link);
+  contentWrapper.append(title);
   if (event.description) {
-    const desc = document.createElement("p");
-    desc.classList.add("event-description");
+    const desc = document.createElement('p');
     desc.textContent = event.description;
-    li.append(desc);
+    contentWrapper.append(desc);
   }
+  li.append(contentWrapper);
 
   return li;
 }
