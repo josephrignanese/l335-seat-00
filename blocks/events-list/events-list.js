@@ -1,5 +1,6 @@
 import ffetch from '../../scripts/ffetch.js';
 import { createOptimizedPicture } from '../../scripts/aem.js';
+
 /**
  * Fetches events data from the events index
  * @returns {Promise<Array>} The events data
