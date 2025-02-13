@@ -1,8 +1,9 @@
 # Adobe Summit L335 - Las Vegas Events
 
 ## Environments
-- Preview: https://main--l335-base--adobe-summit2025-l335.aem.page/
-- Live: https://main--l335-base--adobe-summit2025-l335.aem.live/
+
+- Preview: https://main--{repo}--{owner}.aem.page/
+- Live: https://main--{repo}--{owner}.aem.live/
 
 ## Documentation
 
