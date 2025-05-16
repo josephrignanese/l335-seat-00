@@ -2,8 +2,8 @@
 
 ## Environments
 
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--l335-seat-00--josephrignanese.aem.page/
+- Live: https://main--l335-seat-00--josephrignanese.aem.live/
 
 ## Documentation
 
